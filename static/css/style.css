@@ -1,3 +1,54 @@
 .col-md-5 img {
     width: 100%;
 }
+
+.flashes {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.fade-in-text {
+    display: inline-block;
+    animation: fadeIn linear 4s;
+    -webkit-animation: fadeIn linear 4s;
+    -moz-animation: fadeIn linear 4s;
+    -o-animation: fadeIn linear 4s;
+    -ms-animation: fadeIn linear 4s;
+}
+
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+  
+@-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+  
+@-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+  
+@-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+  
+@-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+
+
+.form-info {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
